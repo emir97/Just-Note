@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultActionBarColor">#D32F2F</color>
+    <color name="defaultNavigationItemAboutBackgroundColor">#D32F2F</color>
+    <color name="defaultStatusBarColor">#C62828</color>
+    <color name="defaultNavigationItemAboutTextColor">#ffffff</color>
+    <color name="defaultNavigationItemsTextColor">#000000</color>
+
+    <!-- Colors for action bar that user can  -->
+    <!-- Pink -->
+    <color name="colorPinkActionBar">#C2185B</color>
+    <color name="colorPinkNavigationItemAboutBackgroundColor">#C2185B</color>
+    <color name="colorPinkStatusBarColor">#AD1457</color>
+    <!-- Purple -->
+    <color name="colorPurpleActionBar">#7B1FA2</color>
+    <color name="colorPurpleNavigationItemAboutBackgroundColor">#7B1FA2</color>
+    <color name="colorPurpleStatusBarColor">#6A1B9A</color>
+    <!-- Indigo -->
+    <color name="colorIndigoActionBar">#303F9F</color>
+    <color name="colorIndigoNavigationItemAboutBackgroundColor">#303F9F</color>
+    <color name="colorIndigoStatusBarColor">#283593</color>
+    <!-- Blue -->
+    <color name="colorBlueActionBar">#1976D2</color>
+    <color name="colorBlueNavigationItemAboutBackgroundColor">#1976D2</color>
+    <color name="colorBlueStatusBarColor">#1565C0</color>
+    <!-- Cyan -->
+    <color name="colorCyanActionBar">#006064</color>
+    <color name="colorCyanNavigationItemAboutBackgroundColor">#006064</color>
+    <color name="colorCyanStatusBarColor">#00838F</color>
+    <!-- Yellow -->
+    <color name="colorYellowActionBar">#FBC02D</color>
+    <color name="colorYellowNavigationItemAboutBackgroundColor">#FBC02D</color>
+    <color name="colorYellowStatusBarColor">#F9A825</color>
+    <!-- Blue Grey -->
+    <color name="colorBlueGreyActionBar">#455A64</color>
+    <color name="colorBlueGreyNavigationItemAboutBackgroundColor">#455A64</color>
+    <color name="colorBlueGreyStatusBarColor">#37474F</color>
+    <!-- Deep Purple -->
+    <color name="colorDeepPurpleActionBar">#512DA8</color>
+    <color name="colorDeepPurpleNavigationItemAboutBackgroundColor">#512DA8</color>
+    <color name="colorDeepPurpleStatusBarColor">#4527A0</color>
+
+
+</resources>

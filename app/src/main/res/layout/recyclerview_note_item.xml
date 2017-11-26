@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_list_row"
+    android:paddingLeft="?listPreferredItemPaddingLeft"
+    android:paddingRight="?listPreferredItemPaddingRight"
+    android:paddingTop="@dimen/padding_list_row"
+    android:id="@+id/recyclerViewNoteRow">
+
+    <RelativeLayout
+        android:id="@+id/circleNoteImage"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_circle_default_red_color"
+        android:layout_weight="6">
+        <TextView
+            android:id="@+id/noteFirstLetter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:text="A"
+            android:gravity="center"/>
+        </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/message_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/msg_text_primary"
+            android:textStyle="bold"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaa"/>
+
+        <TextView
+            android:id="@+id/noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textSize="@dimen/msg_text_secondary"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaa"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    </LinearLayout>

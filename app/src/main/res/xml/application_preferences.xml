@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General">
+        <!--<CheckBoxPreference-->
+            <!--android:title="Application Theme"-->
+            <!--android:summary="Set dark application theme."-->
+            <!--android:key="application_theme"-->
+            <!--android:defaultValue="false"/>-->
+
+        <ListPreference
+            android:title="ActionBar Color"
+            android:summary="Set Action Bar Color."
+            android:key="application_actionbar_color"
+            android:entryValues="@array/colorsArrayNameEntryValues"
+            android:entries="@array/colorsArrayNameEntries"
+            android:defaultValue="@string/colorIndex0"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

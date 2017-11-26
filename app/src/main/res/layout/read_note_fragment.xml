@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/abc_action_bar_content_inset_material">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Naslov"
+    android:textStyle="bold"
+    android:textSize="27sp"
+    android:textColor="@android:color/black"
+    android:fontFamily="Roboto"
+    android:id="@+id/textViewTitleReadNoteAddEditReadNoteActivity"/>
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewCategoryReadNoteActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category: "/>
+        <!--<TextView-->
+            <!--android:id="@+id/textViewDateReadNoteActivity"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Date: "/>-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewContentReadNoteAddEditReadNoteActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sadrzaj"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

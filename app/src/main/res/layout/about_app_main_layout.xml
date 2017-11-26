@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5"
+        android:orientation="vertical">
+        <include
+        android:id="@+id/main_toolbar_about_app"
+        layout="@layout/custom_action_bar" />
+        <!--  For each sharing view, set attribute transitionName TO  -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_ev"
+            android:background="@android:color/white"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:padding="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                android:id="@+id/details_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="Just Note"
+                android:textSize="20sp"
+                android:transitionName="Name"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/details_fax_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="#9f9f9f"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/details_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_toRightOf="@+id/details_fax_label"
+                    android:text="emirveledar5@gmail.com"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:transitionName="aaa" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:id="@+id/details_phone_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone number:"
+                    android:textColor="#9f9f9f"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/details_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_toRightOf="@+id/details_phone_label"
+                    android:text="061 / 258 - 231"
+                    android:textSize="20sp"
+                    android:transitionName="aaa"
+                    android:textColor="#000"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

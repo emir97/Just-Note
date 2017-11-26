@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/abc_action_bar_content_inset_material">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTitleAddEditActivity"
+        android:hint="Title"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:cursorVisible="true"/>
+
+    <Spinner
+        android:padding="5dp"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:id="@+id/spinnerAddEditActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextContentAddEditActivity"
+        android:hint="Content"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:cursorVisible="true"
+        android:gravity="start"
+        />
+</LinearLayout>

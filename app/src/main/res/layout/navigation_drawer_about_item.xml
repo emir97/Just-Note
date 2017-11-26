@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/nav_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/defaultNavigationItemAboutBackgroundColor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="8dp">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="18dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginStart="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Just Note"
+            android:id="@+id/nameAndSurname"
+            android:textSize="20sp"
+            android:textColor="@color/defaultNavigationItemAboutTextColor"
+            android:textStyle="bold"
+            android:layout_gravity="left" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

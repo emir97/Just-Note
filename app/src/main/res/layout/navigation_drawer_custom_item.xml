@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:clickable="true"
+    android:background="@drawable/custom_ripple_animation_recycler_view">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoTitle"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/defaultNavigationItemsTextColor"
+        android:text="aa"
+        android:fontFamily="Roboto Medium"/>
+</RelativeLayout>
